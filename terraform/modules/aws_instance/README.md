@@ -17,5 +17,5 @@
 
 | Name | Description |
 |------|-------------|
-| aws_instance_public_ip |  |
+| aws_instance_public_ip | IP público da instância |
 

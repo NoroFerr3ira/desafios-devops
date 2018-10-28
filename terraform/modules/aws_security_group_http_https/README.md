@@ -15,5 +15,5 @@
 
 | Name | Description |
 |------|-------------|
-| security_group_id |  |
+| security_group_id | ID do security group |
 
