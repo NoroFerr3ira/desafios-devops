@@ -1,0 +1,12 @@
+# Local terraform credential
+credential.tfvars
+
+#  Local .terraform directories
+**/.terraform/*
+
+# Local states directories
+**/.states/*/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
