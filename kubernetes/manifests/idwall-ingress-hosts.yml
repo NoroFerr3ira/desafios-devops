@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: idwall-ingress
+  namespace: idwall-desafio-k8s
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  backend:
+    serviceName: idwall-service
+    servicePort: 80
+  rules:
+  - host: app.idwall.co
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: idwall-service
+          servicePort: 80
